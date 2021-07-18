@@ -15,26 +15,14 @@ Bank contract to map addresses with user's balance
 ## Contracts derivated or deployed
 - bank.sol (no derivates)
 
-## How to Install and Run
-Install truffle globally
-```bash
-npm install --global truffle
-npm install --save-dev solidity-coverage
-truffle init 
-truffle migrate
-# Testing
-truffle test
-truffle run coverage
-````
+## Report
 
-## Audit Report
-
-## What was audited, version
+# What was audited, version
 Contract audited: Bank.sol
 Version: 0.01
 Code (freeze) audited: 18 Jul 2021
 
-## Findings/Severity:
+# Findings/Severity:
 Finding  |  Severity
 --------  |  --------
 Bug  |  `Low`
@@ -42,7 +30,8 @@ Bug  |  `Low`
 - `Critical`: can cost unlimited amount of users' funds
 - `High`: can cost limited amount of users' funds
 - `Low`: minor problems or better solutions
-## Recomendations:
+
+# Recomendations:
 
 ## Audit method and tools
 This audit was done manually. Automatic analysis tools is not reliable, give false positive and miss finding issues; manual auditing is still required
@@ -61,6 +50,18 @@ This audit was done manually. Automatic analysis tools is not reliable, give fal
 - [ ] DIVISION
 - [ ] DELEGATE CALLS
 - [ ] UNEXPECTED CONTRACT BALANCE
+
+## How to Install and Run
+Install truffle globally
+```bash
+npm install --global truffle
+npm install --save-dev solidity-coverage
+truffle init 
+truffle migrate
+# Testing
+truffle test
+truffle run coverage
+````
 
 ## Disclaimer
 All claims, content, designs, algorithms, estimates, roadmaps, specifications, and performance measurements described in this project are done with the developers best efforts. It is up to the reader to check and validate their accuracy and truthfulness. Furthermore nothing in this project constitutes a solicitation for investment.
