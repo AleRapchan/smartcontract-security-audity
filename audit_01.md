@@ -15,7 +15,7 @@ Bank contract to map addresses with user's balance
 ## Contracts derivated or deployed
 - bank.sol (no derivates)
 
-## Report
+## Security Audit Results
 
 ### What was audited, version
 Contract audited: Bank.sol
