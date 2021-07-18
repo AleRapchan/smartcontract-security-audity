@@ -17,12 +17,12 @@ Bank contract to map addresses with user's balance
 
 ## Report
 
-# What was audited, version
+### What was audited, version
 Contract audited: Bank.sol
 Version: 0.01
 Code (freeze) audited: 18 Jul 2021
 
-# Findings/Severity:
+### Findings/Severity:
 Finding  |  Severity
 --------  |  --------
 Bug  |  `Low`
@@ -31,7 +31,7 @@ Bug  |  `Low`
 - `High`: can cost limited amount of users' funds
 - `Low`: minor problems or better solutions
 
-# Recomendations:
+### Recomendations:
 
 ## Audit method and tools
 This audit was done manually. Automatic analysis tools is not reliable, give false positive and miss finding issues; manual auditing is still required
