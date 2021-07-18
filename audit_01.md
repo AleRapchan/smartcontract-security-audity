@@ -2,7 +2,7 @@
 ![Logo](https://alexandrebarros.com/global/audit-report/audit-report-2021-small.png?alt=audit-report)
 
 ## Overall system:
-Bank contract to map addresses with user's balance
+Bank smart contract written in Solidity to map addresses with user's balance.
 
 ## Objectives:
 - Method to get user's balance
