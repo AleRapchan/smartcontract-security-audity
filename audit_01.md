@@ -1,3 +1,5 @@
+# Audit Report
+
 ## Overall system:
 Bank contract to map addresses with user's balance
 
@@ -25,16 +27,12 @@ truffle test
 truffle run coverage
 ````
 
-
 ## Audit Report
-
 
 ## What was audited, version
 Contract audited: Bank.sol
 Version: 0.01
-
-## Code Freeze
-Code audited in 18 Jul 2021
+Code (freeze) audited: 18 Jul 2021
 
 ## Findings/Severity:
 Finding  |  Severity
