@@ -99,7 +99,9 @@ Smart contract development requires a particular engineering mindset.  A failure
 - [X] Provide migration scripts
 - [X] Provide test scripts and coverage for potential scenarios
 
-With the final update of source code and delivery of the audit report, the developer is able to conclude that the client's contract is not vulnerable to any classically known anti-patternsor security issues.While this developer review is a strong and positive indication, the audit report itself is not necessarily a guarantee of correctness or trustworthiness.  The developer always recommends seeking multiple opinions, test coverage, sandbox deployments before any mainnet release.
+With the final update of source code and delivery of the audit report, the developer is able to conclude that the client's contract is not vulnerable to any classically known anti-patternsor security issues.
+
+While this developer review is a strong and positive indication, the audit report itself is not necessarily a guarantee of correctness or trustworthiness. The developer always recommends seeking multiple opinions, test coverage, sandbox deployments before any mainnet release.
 
 ## How to Install and Run
 Install truffle globally
