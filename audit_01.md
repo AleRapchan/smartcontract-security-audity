@@ -43,6 +43,7 @@ The developer accepts no liability for any loss or damage suffered as a result o
 Contract audited: Bank.sol
 Version: 0.01
 Code (freeze) audited: 18 Jul 2021
+The audited source codeSHA-256 Checksum: (not avaliable)
 
 ### Findings/Severity:
 Title  |  Description | Severity
