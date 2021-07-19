@@ -77,6 +77,28 @@ This audit was done manually. Automatic analysis tools is not reliable, give fal
 - [ ] DELEGATE CALLS
 - [ ] UNEXPECTED CONTRACT BALANCE
 
+## Best practice
+Smart contract development requires a particular engineering mindset.  A failure in theinitial construction can be catastrophic, and changing the project after the fact can beexceedingly difficult.To ensure success and to avoid the challenges above smart contracts should here tobest practices at their conception.  Below, we summarized a checklist of key points that help to indicate a high overall quality of the client project.
+
+#### Solidity Protocol
+X Use stable solidity version
+X Handle possible errors properly when making external calls
+X Provide error message along with require()
+X Use modifiers properly
+X Use events to monitor contract activities
+X Refer and use libraries properly
+X No compiler warnings
+#### Privilege Control
+X Provide pause functionality for control and emergency handling
+X Restrict access to sensitive functions
+#### Documentation
+X Provide project readme and execution guidance
+X Provide inline comment for function intention
+X Provide instruction to initialize and execute the test files
+#### Testing
+X Provide migration scripts
+X Provide test scripts and coverage for potential scenarios
+
 ## How to Install and Run
 Install truffle globally
 ```bash
