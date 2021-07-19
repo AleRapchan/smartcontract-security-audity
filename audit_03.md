@@ -19,7 +19,7 @@ Bank smart contract written in Solidity to map addresses with user's balance.
 - Another users withdraw someone else's balance
 
 ## Contracts derivated or deployed
-- Contract_2.sol (no derivates)
+- Contract_3.sol (no derivates)
 
 ### Original Source Code
 ```JS
