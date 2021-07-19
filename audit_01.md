@@ -1,34 +1,20 @@
 # Audit Report
 ![Logo](https://alexandrebarros.com/global/audit-report/audit-report-2021-small.png?alt=audit-report)
 
-
-## Overall system:
-Bank smart contract written in Solidity to map addresses with user's balance.
-
-### Description
-This report has been prepared as the product of the Smart Contract Audit request by GBC. This audit was conducted to discover issues and vulnerabilities in the source code of Labs’s Smart Contracts.
-
-Title  |  Description
------- | ------
-TYPE  |  Smart Contract
-LANGUAGE  |  Solidity
-Plataform Name  |  Ethereum
-REQUEST DATE  |  2021/07/17
-REVISION DATE  |  2021/07/17
-
-
-
 ## Disclaimer
 This  Report  is  subject  to  the  terms  and  conditions  (including  without  limitation,  de-scription  of  services,  confidentiality,  disclaimer  and  limitation  of  liability)  set  forth  in the Verification Services Agreement between the developer and the client, or the scope of services/verification, and terms and conditions provided to the client in connection with the verification (collectively,  the “Agreement”).  This Report provided inconnection with the Services set forth in the Agreement shall be used by the client only to the extent permitted under the terms and conditions set forth in the Agreement.This Report may not be transmitted, disclosed, referred to or relied upon by any person for any purposes without developer’s prior written consent.
 
 All claims, content, designs, algorithms, estimates, roadmaps, specifications, and performance measurements described in this project are done with the developers best efforts. It is up to the reader to check and validate their accuracy and truthfulness. Furthermore nothing in this project constitutes a solicitation for investment. The developer accepts no liability for any loss or damage suffered as a result of using software code downloaded directly from this website.
 
-## Objectives:
+## Overall system:
+Bank smart contract written in Solidity to map addresses with user's balance.
+
+### Objectives:
 - Method to get user's balance
 - Method to add amount to the user's account
 - Method to withdraw value from the user's account
 
-## What should not be possible:
+### What should not be possible:
 - Someone see the balance of another account that it's not it's own
 - Another user's withdraw someone else's balance
 
@@ -59,6 +45,17 @@ contract Bank1{
 ```
 
 ## Security Audit Results
+
+### Description
+This report has been prepared as the product of the Smart Contract Audit request by GBC. This audit was conducted to discover issues and vulnerabilities in the source code of Labs’s Smart Contracts.
+
+Title  |  Description
+------ | ------
+TYPE  |  Smart Contract
+LANGUAGE  |  Solidity
+Plataform Name  |  Ethereum
+REQUEST DATE  |  2021/07/17
+REVISION DATE  |  2021/07/17
 
 ### What was audited, version
 Contract audited: Bank.sol
