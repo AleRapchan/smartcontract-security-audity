@@ -126,7 +126,7 @@ contract Bank1{
 ```
 
 ## Audit method and tools
-This audit was done manually. Automatic analysis tools is not reliable, give false positive and miss finding issues; manual auditing is still required
+This audit was done manually. Automatic analysis tools are not reliable, give false positive and miss finding issues; manual auditing is still required
 
 ## Audit Checklist
 - [ ] Check for warnings
