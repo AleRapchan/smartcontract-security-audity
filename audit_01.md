@@ -58,10 +58,10 @@ REQUEST DATE  |  2021/07/17
 REVISION DATE  |  2021/07/17
 
 ### What was audited, version
-Contract audited: Bank.sol
-Version: 0.01
-Code (freeze) audited: 18 Jul 2021
-The audited source codeSHA-256 Checksum: (not avaliable)
+- Contract audited: Bank.sol
+- Version: 0.01
+- Code (freeze) audited: 18 Jul 2021
+- Audited source codeSHA-256 Checksum: (not avaliable)
 
 Line 1 in File
 ```JS
