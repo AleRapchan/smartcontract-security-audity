@@ -19,29 +19,28 @@ Bank smart contract written in Solidity to map addresses with user's balance.
 - Another users withdraw someone else's balance
 
 ## Contracts derivated or deployed
-- bank.sol (no derivates)
+- Contract_2.sol (no derivates)
 
 ### Original Source Code
 ```JS
-contract Bank1{
-    address payable owner;
-
-    modifier onlyowner {
-        require(msg.sender==owner);
-        _;
+contract Bank{
+    mapping (address => uint) userBalance;
+   
+    function getBalance(address u) public view returns(uint){
+        return userBalance[u];
     }
 
-    function setOwner() public {
-        owner = msg.sender;
-    }
+    function addToBalance() external payable {
+        userBalance[msg.sender] += msg.value;
+    }   
 
-    function withdraw() public onlyowner {
-        (bool success, ) = recipient.call{value:amt}("");
-        require(success, "Transfer failed.");
-
-        owner.transfer(address(this).balance);
-    }
+    function withdrawBalance() public{
+        (bool success, ) = msg.sender.call{value:userBalance[msg.sender]}("");
+        require(success);
+        userBalance[msg.sender] = 0;
+    }   
 }
+
 ```
 
 ## Security Audit Results
@@ -58,7 +57,7 @@ REQUEST DATE  |  2021/07/17
 REVISION DATE  |  2021/07/17
 
 ### What was audited, version
-- Contract audited: Bank.sol
+- Contract audited: Contract_2.sol
 - Version: 0.01
 - Code (freeze) audited: 18 Jul 2021
 - Audited source codeSHA-256 Checksum: (not available)
