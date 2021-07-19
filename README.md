@@ -13,7 +13,7 @@ Smart contract security auditing is a thorough analysis of a blockchain applicat
 
 [https://consensys.github.io/smart-contract-best-practices/security_tools/](https://consensys.github.io/smart-contract-best-practices/security_tools/)
 
-## Useful checklist and References
+## Useful Checklist and References
 
 - [Consensys Security Best Practices](https://consensys.github.io/smart-contract-best-practices/recommendations/)
 - [Smart Contract Weakness Classification](https://swcregistry.io/)
