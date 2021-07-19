@@ -1,6 +1,14 @@
 # Audit Report
 ![Logo](https://alexandrebarros.com/global/audit-report/audit-report-2021-small.png?alt=audit-report)
 
+TYPE: Smart Contract
+LANGUAGE: Solidity
+REQUEST DATE: 2021/07/17
+REVISION DATE: 2021/07/17
+DESCRIPTION:
+This report has been prepared as the product of the Smart Contract Audit request by GBC. This audit was conducted to discover issues and vulnerabilities in the source code of Labs’s Smart Contracts.
+
+
 ## Overall system:
 Bank smart contract written in Solidity to map addresses with user's balance.
 
