@@ -39,20 +39,10 @@ The developer accepts no liability for any loss or damage suffered as a result o
 ## Contracts derivated or deployed
 - bank.sol (no derivates)
 
-### Source Code
+### Original Source Code
 ```JS
-// Should inform the type of licence (ex.: // SPDX-License-Identifier: MIT)
-// Should utilize the lasted compiler version avaliable (ex.: pragma solidity ^0.8.6;)
-
-// https://ethereum.stackexchange.com/questions/19341/address-send-vs-address-transfer-best-practice-usage/38642
-
 contract Bank1{
-    // variable should be private
     address payable owner;
-
-    // Create a constructor to assing msg.sender to owner variable
-    // setOwner function should use onlyowner modifier
-
 
     modifier onlyowner {
         require(msg.sender==owner);
@@ -60,27 +50,14 @@ contract Bank1{
     }
 
     function setOwner() public {
-        // owner = payable(msg.sender);
         owner = msg.sender;
     }
 
     function withdraw() public onlyowner {
-        // call{value: amount}("") should now be used for transferring ether 
-        // (Do not use send or transfer.)
         (bool success, ) = recipient.call{value:amt}("");
         require(success, "Transfer failed.");
 
         owner.transfer(address(this).balance);
-        // require(owner.send(address(this).balance));
-        // payable(owner()).send(address(this).balance);
-
-        // function untrustedWithdraw() public {
-        // uint256 amount = balances[msg.sender];
-        // require(msg.sender.call.value(amount)());
-        // balances[msg.sender] = 0;
-}
-
-
     }
 }
 ```
