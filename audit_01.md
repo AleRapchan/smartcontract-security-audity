@@ -87,6 +87,50 @@ Variable Scope | Variable should be private when possible |  `High`
 ## Recomendations:
 The items below are notes from the developer in accordance with his audit.  These suggestions can be optional, and sometimes they have a low impact on the overall aspects of the client's contracts.  As such, these are optional edits for the client to consider for enhancement.
 
+### Code Recomendations Commented 
+```JS
+// Should inform the type of licence (ex.: // SPDX-License-Identifier: MIT)
+// Should utilize the lasted compiler version avaliable (ex.: pragma solidity ^0.8.6;)
+
+// https://ethereum.stackexchange.com/questions/19341/address-send-vs-address-transfer-best-practice-usage/38642
+
+contract Bank1{
+    // variable should be private
+    address payable owner;
+
+    // Create a constructor to assing msg.sender to owner variable
+    // setOwner function should use onlyowner modifier
+
+
+    modifier onlyowner {
+        require(msg.sender==owner);
+        _;
+    }
+
+    function setOwner() public {
+        // owner = payable(msg.sender);
+        owner = msg.sender;
+    }
+
+    function withdraw() public onlyowner {
+        // call{value: amount}("") should now be used for transferring ether 
+        // (Do not use send or transfer.)
+        (bool success, ) = recipient.call{value:amt}("");
+        require(success, "Transfer failed.");
+
+        owner.transfer(address(this).balance);
+        // require(owner.send(address(this).balance));
+        // payable(owner()).send(address(this).balance);
+
+        // function untrustedWithdraw() public {
+        // uint256 amount = balances[msg.sender];
+        // require(msg.sender.call.value(amount)());
+        // balances[msg.sender] = 0;
+
+    }
+}
+```
+
 ## Audit method and tools
 This audit was done manually. Automatic analysis tools is not reliable, give false positive and miss finding issues; manual auditing is still required
 
