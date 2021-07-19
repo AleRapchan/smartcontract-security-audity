@@ -89,26 +89,26 @@ The items below are notes from the developer in accordance with his audit.  Thes
 
 ### Code Recomendations Commented 
 ```JS
-// Should inform the type of licence (ex.: // SPDX-License-Identifier: MIT)
-// Should utilize the lasted compiler version avaliable (ex.: pragma solidity ^0.8.6;)
+// Should inform the type of licence type. 
+// ex: SPDX-License-Identifier: MIT
 
-// https://ethereum.stackexchange.com/questions/19341/address-send-vs-address-transfer-best-practice-usage/38642
+// Should utilize the lasted compiler version avaliable.
+// Ex: pragma solidity ^0.8.6;
 
 contract Bank1{
-    // variable should be private
+    // variable could be private
     address payable owner;
 
     // Create a constructor to assing msg.sender to owner variable
-    // setOwner function should use onlyowner modifier
-
 
     modifier onlyowner {
         require(msg.sender==owner);
         _;
     }
 
+    // setOwner function should use onlyowner modifier
     function setOwner() public {
-        // owner = payable(msg.sender);
+        // Msg.sender should be Payable (ex:payable(msg.sender));
         owner = msg.sender;
     }
 
