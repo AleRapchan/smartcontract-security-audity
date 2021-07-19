@@ -1,5 +1,34 @@
 # Smart Contract Security Audity
 Smart contract security auditing is a thorough analysis of a blockchain applications’ smart contracts in order to correct design issues, errors in the code, or security vulnerabilities.
+- An assessment of your secure development process.
+- The best option available to identify subtle vulnerabilities
+- A systematic method for assessing the quality and security of code.
+
+### ANALYZE SECURITY VULNERABILITIES PROCESS INVOLVES:
+- Analyze specifications
+- Run tests
+- Run automated analysis tools
+- Perform manual code audit
+- Create audit report
+
+## ETHEREUM SECURITY CHALLENGES :
+- Decentralized execution environment
+- New software stack
+- Very limited ability to patch contracts
+- Anonymous financially motivated attackers
+- Rapid pace of development
+- Suboptimal high-level language
+
+## CLASSIFICATION OF ISSUES IN SOLIDITY CODE :
+- `Security` : directly lead to exploits
+- `Functional`: violate the intended functionality1
+- `Operational` : lead to run-time problems
+- `Developmental` : make code hard to improve
+
+## TYPICAL ISSUES IN SOLIDITY CODE
+- Re-entrancy (security)
+- Locked money (functional)
+- Costly loop (operational)
 
 ## Recommended Analysis Tools
 
