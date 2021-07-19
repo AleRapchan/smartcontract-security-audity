@@ -7,6 +7,7 @@ Bank smart contract written in Solidity to map addresses with user's balance.
 
 - TYPE: Smart Contract
 - LANGUAGE: Solidity
+- Plataform Name: Ethereum
 - REQUEST DATE: 2021/07/17
 - REVISION DATE: 2021/07/17
 - DESCRIPTION: This report has been prepared as the product of the Smart Contract Audit request by GBC. This audit was conducted to discover issues and vulnerabilities in the source code of Labs’s Smart Contracts.
