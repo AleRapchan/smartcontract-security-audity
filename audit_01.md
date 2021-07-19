@@ -12,6 +12,19 @@ Bank smart contract written in Solidity to map addresses with user's balance.
 - REVISION DATE: 2021/07/17
 - DESCRIPTION: This report has been prepared as the product of the Smart Contract Audit request by GBC. This audit was conducted to discover issues and vulnerabilities in the source code of Labs’s Smart Contracts.
 
+## Disclaimer
+This  Report  is  subject  to  the  terms  and  conditions  (including  without  limitation,  de-scription  of  services,  confidentiality,  disclaimer  and  limitation  of  liability)  set  forth  in the Verification Services Agreement between the developer and the client, or the scope of services/verification, and terms and conditions provided to the client in connection with the verification (collectively,  the “Agreement”).  This Report provided inconnection with the Services set forth in the Agreement shall be used by the client only to the extent permitted under the terms and conditions set forth in the Agreement.This Report may not be transmitted, disclosed, referred to or relied upon by any personfor any purposes without developer’s prior written consent.
+
+All claims, content, designs, algorithms, estimates, roadmaps, specifications, and performance measurements described in this project are done with the developers best efforts. It is up to the reader to check and validate their accuracy and truthfulness. Furthermore nothing in this project constitutes a solicitation for investment.
+
+Any content produced by the developer are for educational and inspiration purposes only. The developer does not encourage, induce or sanction the deployment, integration or use of any such applications(including the code) in violation of applicable laws or regulations and hereby prohibits any such deployment, integration or use.
+
+Our goal is to produce computer programs that are COMPLETELY BUG-FREE AND 100% RELIABLE.  However due to the complexity of computer systems this is almost impossible to achieve in reality. Although WE MAKE EVERY EFFORT TO ENSURE THAT IT DOES NOT HAPPEN we are unable to offer any guarantee that software code downloaded directly from this site (or any other) will not corrupt your database or cause other unforseen effects to any of the data or software on your computer.
+
+It is therefore very much in your interest to ensure that BEFORE INSTALLING SOFTWARE CODE FROM THIS SITE (or any other) you have on hand current backups of all your data and software and have tested that you can restore your system from them in the event that you need to do so.
+
+The developer accepts no liability for any loss or damage suffered as a result of using software code downloaded directly from this website.
+
 ## Objectives:
 - Method to get user's balance
 - Method to add amount to the user's account
@@ -72,14 +85,5 @@ truffle test
 truffle run coverage
 ````
 
-## Disclaimer
-All claims, content, designs, algorithms, estimates, roadmaps, specifications, and performance measurements described in this project are done with the developers best efforts. It is up to the reader to check and validate their accuracy and truthfulness. Furthermore nothing in this project constitutes a solicitation for investment.
 
-Any content produced by the developer are for educational and inspiration purposes only. The developer does not encourage, induce or sanction the deployment, integration or use of any such applications(including the code) in violation of applicable laws or regulations and hereby prohibits any such deployment, integration or use.
-
-Our goal is to produce computer programs that are COMPLETELY BUG-FREE AND 100% RELIABLE.  However due to the complexity of computer systems this is almost impossible to achieve in reality. Although WE MAKE EVERY EFFORT TO ENSURE THAT IT DOES NOT HAPPEN we are unable to offer any guarantee that software code downloaded directly from this site (or any other) will not corrupt your database or cause other unforseen effects to any of the data or software on your computer.
-
-It is therefore very much in your interest to ensure that BEFORE INSTALLING SOFTWARE CODE FROM THIS SITE (or any other) you have on hand current backups of all your data and software and have tested that you can restore your system from them in the event that you need to do so.
-
-The developer accepts no liability for any loss or damage suffered as a result of using software code downloaded directly from this website.
 
