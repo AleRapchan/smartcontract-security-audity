@@ -12,7 +12,9 @@ LANGUAGE  |  Solidity
 Plataform Name  |  Ethereum
 REQUEST DATE  |  2021/07/17
 REVISION DATE  |  2021/07/17
-DESCRIPTION  |  This report has been prepared as the product of the Smart Contract Audit request by GBC. This audit was conducted to discover issues and vulnerabilities in the source code of Labs’s Smart Contracts.
+
+### Description
+This report has been prepared as the product of the Smart Contract Audit request by GBC. This audit was conducted to discover issues and vulnerabilities in the source code of Labs’s Smart Contracts.
 
 ## Disclaimer
 This  Report  is  subject  to  the  terms  and  conditions  (including  without  limitation,  de-scription  of  services,  confidentiality,  disclaimer  and  limitation  of  liability)  set  forth  in the Verification Services Agreement between the developer and the client, or the scope of services/verification, and terms and conditions provided to the client in connection with the verification (collectively,  the “Agreement”).  This Report provided inconnection with the Services set forth in the Agreement shall be used by the client only to the extent permitted under the terms and conditions set forth in the Agreement.This Report may not be transmitted, disclosed, referred to or relied upon by any person for any purposes without developer’s prior written consent.
