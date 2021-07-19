@@ -7,16 +7,15 @@ This  Report  is  subject  to  the  terms  and  conditions  (including  without 
 All claims, content, designs, algorithms, estimates, roadmaps, specifications, and performance measurements described in this project are done with the developer's best efforts. It is up to the reader to check and validate their accuracy and truthfulness. Furthermore, nothing in this project constitutes a solicitation for investment. The developer accepts no liability for any loss or damage suffered as a result of using software code downloaded directly from this website.
 
 ## Overall system:
-Bank smart contract written in Solidity to map addresses with user's balance.
+Bank smart contract written in Solidity to set smart contract owner's addresses and to withdraw all balance of the contract.
 
 ### Objectives:
-- Method to get user's balance
-- Method to add amount to the user's account
-- Method to withdraw value from the user's account
+- Method to set owner of the smart contract.
+- Method to withdraw all balance from the smart contract's account.
 
 ### What should not be possible:
-- Someone sees the balance of another account that it's not its own
-- Another users withdraw someone else's balance
+- Anyone asign the new owner and not only the old owner.
+- Not only the onwer withdraw total balance of the smart contract.
 
 ## Contracts derivated or deployed
 - bank.sol (no derivates)
