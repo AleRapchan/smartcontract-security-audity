@@ -7,16 +7,13 @@ This  Report  is  subject  to  the  terms  and  conditions  (including  without 
 All claims, content, designs, algorithms, estimates, roadmaps, specifications, and performance measurements described in this project are done with the developer's best efforts. It is up to the reader to check and validate their accuracy and truthfulness. Furthermore, nothing in this project constitutes a solicitation for investment. The developer accepts no liability for any loss or damage suffered as a result of using software code downloaded directly from this website.
 
 ## Overall system:
-Bank smart contract written in Solidity to map addresses with user's balance.
+Action smart contract written in Solidity to make bids.
 
 ### Objectives:
-- Method to get user's balance
-- Method to add amount to the user's account
-- Method to withdraw value from the user's account
+- Method to bid.
 
 ### What should not be possible:
-- Someone sees the balance of another account that it's not its own
-- Another users withdraw someone else's balance
+- Someone sees the bid of another account that it's not its own
 
 ## Contracts derivated or deployed
 - Contract_4.sol (no derivates)
