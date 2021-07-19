@@ -139,15 +139,15 @@ This audit was done manually. Automatic analysis tools is not reliable, give fal
 - [ ] Testing
 - [ ] Code Currency
 - [ ] External Calls
-- [ ] DENIAL OF SERVICE (DOS)
-- [ ] DOS WITH BLOCK GAS LIMIT
-- [ ] PERMISSION
-- [ ] FAILURE HANDLING
-- [ ] FRONT RUNNING
-- [ ] OVERFLOW
-- [ ] DIVISION
-- [ ] DELEGATE CALLS
-- [ ] UNEXPECTED CONTRACT BALANCE
+- [ ] Denial of Service (DOS)
+- [ ] DOS with Block Gas Limit
+- [ ] Permission
+- [ ] Failure Handling
+- [ ] Front Running
+- [ ] Overflow
+- [ ] Division
+- [ ] Delegate Calls
+- [ ] Unexpected Contract Balance
 
 ## Best practice
 Smart contract development requires a particular engineering mindset.  A failure in theinitial construction can be catastrophic, and changing the project after the fact can beexceedingly difficult.To ensure success and to avoid the challenges above smart contracts should here tobest practices at their conception.  Below, we summarized a checklist of key points that help to indicate a high overall quality of the client project.
