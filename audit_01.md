@@ -45,9 +45,9 @@ Version: 0.01
 Code (freeze) audited: 18 Jul 2021
 
 ### Findings/Severity:
-Finding  |  Severity
---------  |  --------
-Bug  |  `Low`
+Title  |  Description | Severity
+--------  |  -------- |  --------
+Bug  | Bug in the code |  `Low`
 
 #### Vulnerability Classification
 
