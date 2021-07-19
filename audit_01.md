@@ -45,10 +45,19 @@ Version: 0.01
 Code (freeze) audited: 18 Jul 2021
 The audited source codeSHA-256 Checksum: (not avaliable)
 
+Line 1 in File
+```JS
+// Should inform the type of licence (ex.: // SPDX-License-Identifier: MIT)
+// Should utilize the lasted compiler version avaliable (ex.: pragma solidity ^0.8.6;)
+
+```
+
 ### Findings/Severity:
 Title  |  Description | Severity
 --------  |  -------- |  --------
-Bug  | Bug in the code |  `Low`
+License Type  | Should inform the type of licence |  `Low`
+Insecure Compiler Version  | Should utilize the lasted compiler version avaliable |  `Low`
+
 
 #### Vulnerability Classification
 
