@@ -56,7 +56,8 @@ Bug  | Bug in the code |  `Low`
 - `High`: can cost limited amount of users' funds
 - `Low`: minor problems or better solutions
 
-### Recomendations:
+## Recomendations:
+The items below are notes from the developer in accordance with his audit.  These suggestions can be optional, and sometimes they have a low impact on the overall aspects of the client's contracts.  As such, these are optional edits for the client to consider for enhancement.
 
 ## Audit method and tools
 This audit was done manually. Automatic analysis tools is not reliable, give false positive and miss finding issues; manual auditing is still required
