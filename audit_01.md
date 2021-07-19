@@ -49,6 +49,8 @@ Finding  |  Severity
 --------  |  --------
 Bug  |  `Low`
 
+#### Vulnerability Classification
+
 - `Critical`: can cost unlimited amount of users' funds
 - `High`: can cost limited amount of users' funds
 - `Low`: minor problems or better solutions
