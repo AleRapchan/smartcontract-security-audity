@@ -57,6 +57,7 @@ Title  |  Description | Severity
 --------  |  -------- |  --------
 License Type  | Should inform the type of licence |  `Low`
 Insecure Compiler Version  | Should utilize the lasted compiler version avaliable |  `Low`
+Variable Scope | Variable should be private when possible |  `High`
 
 
 #### Vulnerability Classification
